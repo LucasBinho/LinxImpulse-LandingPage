@@ -1,0 +1,12 @@
+.Card {
+    padding: 1.5em;
+}
+
+.preco {
+    display: flex;
+    flex-direction: column;
+}
+
+.preco button {
+    width: 12.5em;
+}

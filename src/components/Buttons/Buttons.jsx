@@ -1,5 +1,7 @@
-import '../Buttons/Buttons.css'
+import '../css/Buttons.css'
 
 export const Buttons = (props) => {
-    return <button className='Button'>{props.texto}</button>
+    return <button className='individualButton'>{props.texto}</button>
 }
+
+

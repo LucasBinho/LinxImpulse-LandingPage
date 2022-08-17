@@ -1,0 +1,33 @@
+.textForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+.radioForm{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2em;
+}
+
+.form input[type=text]{
+    width: 21em;
+}
+
+.formButton {
+    height: 2.5em
+}

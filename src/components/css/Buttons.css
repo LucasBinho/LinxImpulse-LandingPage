@@ -1,0 +1,14 @@
+.buttonsHeader{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 1em;
+   
+}
+
+.individualButton {
+   text-align: center;
+   width: 15em;
+   height: 2.5em;
+   color: #888888;
+} 

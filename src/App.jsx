@@ -1,17 +1,22 @@
-import Header from "./components/Header/Header"
+import Header from "./components/Header/Header";
+import "../reset.css";
+import Form from "./components/Form/Form";
+import CardContainer from "./components/CardContainer/CardContainer";
 
-import '../reset.css'
 
 
 function App() {
+ 
   
-
   return (
     <div className="App">
-      <Header/>
-      
+      <Header />
+      <main>
+        <Form />
+        <CardContainer/>
+      </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
