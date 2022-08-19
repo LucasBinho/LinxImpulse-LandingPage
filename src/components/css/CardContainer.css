@@ -1,13 +1,44 @@
 .CardContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 5em;
+  margin-right: 5em;
+}
 
+.especialSelection {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+}
+
+.especialSelection::after,
+.especialSelection::before {
+  content: "";
+  border: 0.01em solid black;
+  flex: 1;
+}
+
+.especialSelection:not(:empty)::before {
+  margin-right: 0.3em;
+}
+
+.especialSelection:not(:empty)::after {
+  margin-left: 0.3em;
+}
+
+
+.addCardButton {
+  text-align: center;
+  width: 15em;
+  height: 2.5em;
+  color: #888888;
+  
 }
