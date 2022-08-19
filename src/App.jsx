@@ -2,6 +2,7 @@ import Header from "./components/Header/Header";
 import "../reset.css";
 import Form from "./components/Form/Form";
 import CardContainer from "./components/CardContainer/CardContainer";
+import ShareTheNews from "./components/ShareTheNews/ShareTheNews";
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Form />
         <CardContainer/>
+        <ShareTheNews/>
       </main>
     </div>
   );
