@@ -2,7 +2,7 @@ import Card from "../Card/Card";
 import "../css/CardContainer.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Buttons } from "../Buttons/Buttons";
+
 
 const url =
   "https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?pages=1";
@@ -21,8 +21,8 @@ function CardContainer() {
   }, []);
 
 
-  const handleClick = (url) => {
-    axios.get(`http://${url}`).then((resp) => {
+  const handleClick = () => {
+    axios.get(`http://${newUrl}`).then((resp) => {
       setCardInfo([...cardInfo, ...resp.data.products])
       setNewUrl(resp.data.nextPage)
   })
@@ -34,7 +34,7 @@ function CardContainer() {
         <h2 className="especialSelection">Sua seleção Especial</h2>
       </div>
       <div className="cards">
-        {cardInfo.map((card) => (
+        {cardInfo.map((card) => ( 
           <Card
             key={card.id}
             imagem={card.image}
@@ -48,7 +48,7 @@ function CardContainer() {
         ))}
       </div>
       <div>
-        <button className="addCardButton" onClick={()=>{handleClick(newUrl)}}>Adicione mais itens aqui!</button>
+        <button className="addCardButton" onClick={handleClick}>Adicione mais itens aqui!</button>
       </div>
     </div>
   );
