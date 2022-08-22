@@ -3,7 +3,8 @@
     justify-content: center;
     align-items: center;
     gap: 5em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
+    
 }
 
 .text {
@@ -28,8 +29,18 @@
 
 .form input[type=text]{
     width: 21em;
+    height: 1.875em;
 }
 
 .formButton {
     height: 2.5em
+}
+
+
+.formError {
+    margin: 0.2em;
+    color: red;
+    height: 1.5625em;
+    display: contents;
+
 }

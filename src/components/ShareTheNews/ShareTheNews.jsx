@@ -9,13 +9,17 @@ function ShareTheNews() {
         Quer que seus amigos também ganhem a lista personalizada deles? Preencha
         agora!
       </p>
-      <div className="shareInput">
-        <label>Nome do seu amigo:</label>
-        <input className="shareName" type="text" />
-        <label>E-mail:</label>
-        <input className="shareEmail" type="text" />
-      </div>
-      <Buttons texto="Enviar" />
+      <form className="shareInput">
+          <div className="nameInput">
+            <label>Nome do seu amigo:</label>
+            <input className="shareName" type="text" />
+          </div>
+          <div className="emailInput">
+            <label>E-mail:</label>
+            <input className="shareEmail" type="text" />
+          </div>
+      </form>
+      <Buttons  texto="Enviar agora" />
     </div>
   );
 }

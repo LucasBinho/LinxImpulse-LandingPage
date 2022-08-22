@@ -48,7 +48,7 @@ function CardContainer() {
         ))}
       </div>
       <div>
-        <button className="addCardButton" onClick={handleClick}>Adicione mais itens aqui!</button>
+        <button className="addCardButton" onClick={handleClick}>Ainda mais produtos aqui!</button>
       </div>
     </div>
   );

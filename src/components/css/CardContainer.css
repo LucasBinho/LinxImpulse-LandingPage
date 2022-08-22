@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 4em;
 }
 
 .cards {
@@ -10,13 +11,14 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-left: 5em;
   margin-right: 5em;
+  margin-top: 2em;
 }
 
 .especialSelection {
   display: flex;
   align-items: center;
   text-align: center;
-  width: 85vw;
+  width: 77vw;
 }
 
 .especialSelection::after,
@@ -37,7 +39,8 @@
 
 .addCardButton {
   text-align: center;
-  width: 15em;
+  margin-top: 2em;
+  width: 16.25em;
   height: 2.5em;
   color: #888888;
   

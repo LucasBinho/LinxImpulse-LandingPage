@@ -10,3 +10,12 @@
 .preco button {
     width: 12.5em;
 }
+
+.nomeProduto {
+    height: 1em;
+}
+
+.descricao {
+    width: 16em;
+    height: 2em;
+}

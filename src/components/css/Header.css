@@ -2,19 +2,38 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  height: 31.25em;
+  width: 100%;
+  height: 35em;
   background: #707070 0% 0% no-repeat padding-box;
   background-image: -webkit-linear-gradient(86deg, #fff 50%, #707070 50%);
   opacity: 1;
 }
 
-.headerText{
+.headerText {
   margin-top: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: #ffffff;
+}
 
+.headerText h3 {
+  height: 1em;
+}
+
+.headerText h1 {
+  height: 1.3em;
+}
+
+.buttonsHeader {
+  margin: 0;
+}
+
+button.individualButton {
+  box-shadow: 0px 1px 6px #00000029;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  height: 2.5em;
+  width: 10em;
 }
