@@ -3,7 +3,7 @@ import "../reset.css";
 import Form from "./components/Form/Form";
 import CardContainer from "./components/CardContainer/CardContainer";
 import ShareTheNews from "./components/ShareTheNews/ShareTheNews";
-
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -39,6 +39,7 @@ function App() {
       </div>
         <CardContainer/>
         <ShareTheNews/>
+        <Footer/>
       </main>
     </div>
   );

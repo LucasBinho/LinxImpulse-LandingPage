@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2giem;
+  gap: 2em;
 }
 
 .shareInput {
@@ -70,3 +70,26 @@ p {
 }
 
 
+@media(max-width: 720px) {
+  .shareTheNews {
+    font-size: 15px;
+  }
+
+  .shareInput {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shareInput input[type=text]{
+    width: 30em;
+    height: 2.2em;
+   
+  }
+}
+
+@media(min-width: 721px){
+  .shareInput{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

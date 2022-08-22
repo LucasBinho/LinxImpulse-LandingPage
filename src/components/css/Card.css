@@ -19,3 +19,18 @@
     width: 16em;
     height: 2em;
 }
+
+@media(max-width: 720px) {
+    .Card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .responsiveCardText {
+       font-size: 15px;
+    }
+}
+
