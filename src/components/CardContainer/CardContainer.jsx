@@ -10,6 +10,8 @@ const url =
 function CardContainer() {
   const [cardInfo, setCardInfo] = useState([]);
   const [newUrl, setNewUrl] = useState("");
+
+
  
   useEffect(() => {
     axios
@@ -22,7 +24,7 @@ function CardContainer() {
 
 
   const handleClick = () => {
-    axios.get(`http://${newUrl}`).then((resp) => {
+    axios.get(`https://${newUrl}`).then((resp) => {
       setCardInfo([...cardInfo, ...resp.data.products])
       setNewUrl(resp.data.nextPage)
   })
